@@ -1,0 +1,20 @@
+<head>
+<link href='https://fonts.googleapis.com/css?family=Tangerine:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="dreamer"><p>The Dreamer, The Believer </p></div>
+  <div class="byzaki"> <p>By Zaki Ahmed </p></div>
+<nav> <p><%=link_to "Home", root_path, class:"Home" %></p>
+<p><%=link_to "New Post", new_blog_path, class:"NP" %></p>
+<p>TBD</p>
+<p>TBD</p></nav>
+<img src="http://i854.photobucket.com/albums/ab108/The_Big_Zukini/bbq1.jpg" alt="" />
+<% @blog.each do |blog| %>
+<div class="posts">
+<p><%= link_to blog_path(id: blog.id), class:"Title" do %><%= blog.title %><% end %> </p>
+<p class="subtitle"><%= blog.subtitle %></p>
+<p class="auth">By <%= blog.author %></p>
+<% end %>
+</div>
+</body>

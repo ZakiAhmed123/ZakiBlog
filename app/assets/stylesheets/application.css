@@ -1,0 +1,164 @@
+@import'blog';
+@import url(https://fonts.googleapis.com/css?family=Tangerine:700);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+.dreamer p {
+  font-family: 'Pacifico', cursive;
+font-size: 100px;
+justify-content: center;
+text-align: center;
+margin: 0px;
+}
+
+.byzaki p {
+  font-family: 'Pacifico', cursive;
+font-size: 60px;
+justify-content: center;
+text-align: center;
+margin: 0px 0px 20px 0px;}
+
+img {
+  width:1265px;
+  margin: 0px;
+  padding:0px;
+  height:auto;
+}
+body {
+  margin:0px;
+}
+nav p {
+  display: inline-block;;
+  width: 300px;
+  height:20px;
+  color:#C6C6C6;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin: 0px;
+  padding:0px;
+  text-align: center;
+  text-decoration:none;
+}
+nav p:hover {
+  color:#4CAF50;
+}
+nav {
+  border-top: 2px solid #C6C6C6 ;
+  border-bottom: 2px solid #C6C6C6;
+  margin-bottom: 10px;
+}
+
+.dreamerview p {
+  font-family: 'Pacifico', cursive;
+font-size: 50px;
+justify-content: center;
+text-align: center;
+margin: 0px;
+}
+
+
+.post {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+}
+.post p{
+  font-size: 80px;
+}
+.sub p {
+  font-size: 40px;
+}
+.edit {
+  width:80px;
+  font-size: 30px;
+  height:auto;
+  background-color: #4CAF50;
+  text-align: center;
+  text-decoration: none;
+  position:fixed;
+  top: 600px;
+  left: 550px;
+}
+
+.delete {
+  width:80px;
+  font-size: 30px;
+  height:auto;
+  background-color: #ff0011;
+  position:fixed;
+  top: 600px;
+  right: 550px;
+}
+
+.newform p {
+  text-align: center;
+  font-size: 40px;
+  margin:20px;
+  padding:0px;
+  font-family: 'Arvo', serif;
+  color:#4CAF50;
+}
+
+textarea {
+  font-size: 60px;
+  font-family: 'Arvo', serif;
+}
+.Home {
+  text-decoration: none;
+  color:#C6C6C6;
+}
+.Home:hover {
+  color:#4CAF50;
+}
+.NP {
+  text-decoration: none;
+  color:#C6C6C6;
+}
+.NP:Hover{
+  color:#4CAF50;
+}
+.Editbttn {
+  text-decoration: none;
+  color: white;
+}
+.deletebttn {
+  text-decoration: none;
+  color:white;
+}
+
+.submit {
+  height:80px;
+  width:400px;
+  color: orange;
+  font-size:40px;
+  font-family: 'Pacifico', cursive;
+  background-color: white;
+}
+.Title {
+  text-decoration: none;
+  font-family: 'Arvo', serif;
+  font-size: 60px;
+  color: black;
+}
+.Title a{
+  justify-content: center;
+}
+.subtitle{
+  text-decoration: none;
+  font-family: 'Arvo', serif;
+  font-size: 40px;
+}
+
+.auth {
+  text-decoration: none;
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  width: 1100px;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #C6C6C6;
+  margin:10px;
+  border-left: 2px solid #C6C6C6;
+
+}
+.posts {
+ text-align: center;
+}

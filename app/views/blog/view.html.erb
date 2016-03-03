@@ -1,0 +1,16 @@
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="dreamerview"><p>The Dreamer, The Believer </p></div>
+<nav> <p><%=link_to "Home", root_path, class:"Home" %></p>
+<p><%=link_to "New Post", new_blog_path, class:"NP" %></p>
+<p>TBD</p>
+<p>TBD</p></nav>
+<div class="post">
+<p><%= @blog.title %> <p><div class="sub"><p><%= @blog.subtitle %></p> <p>by<%= @blog.author %></p> </div></p>
+
+<div class="edit"><%= link_to "Edit", edit_blog_path(id: @blog.id), class: "Editbttn"%></div>
+<div class="delete"><%= link_to "Delete", blog_path(id: @blog.id), method: :delete, class: "deletebttn", data: {confirm: "Are you sure you want to delete?"}%></div>
+</div>
+</body>

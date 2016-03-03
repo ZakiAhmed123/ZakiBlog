@@ -1,0 +1,19 @@
+<div class="dreamerview"><p>The Dreamer, The Believer </p></div>
+<nav> <p><%=link_to "Home", root_path, class:"Home" %></p>
+<p><%=link_to "New Post", new_blog_path, class:"NP" %></p>
+<p>TBD</p>
+<p>TBD</p></nav>
+<body>
+  <% if @blog.errors.any? %>
+  <% @blog.errors.full_messages.each do |error| %>
+  <strong><%= error %></strong>
+  <% end %>
+<% end %>
+      <%= form_for @blog, url: blog_path(id: @blog.id) do |f| %>
+      <div class="newform">
+      <p>Insert Title<p><%= f.text_area :title, cols: "30", rows: "1"%></p></p>
+      <p>Insert Subtitle<p><%= f.text_area :subtitle, cols: "30", rows:"1" %></p></p>
+      <p>Insert Author<p><%= f.text_area :author, cols: "15", rows:"1"%></p></p>
+      <p><%= f.submit class:"submit" %></p>
+      <% end %></div>
+</body>
